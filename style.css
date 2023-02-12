@@ -37,6 +37,7 @@ body {
   background-color: var(--light-color);
   border-radius: 5px;
   width: 500px;
+  max-width: 93%;
   height: 600px;
 }
 
@@ -73,4 +74,14 @@ img {
 
 .btn-refresh:hover {
   opacity: 0.75;
+}
+
+@media (max-width: 391px) {
+  img {
+    width: 60px;
+  }
+
+  * {
+    font-size: 1rem;
+  }
 }
